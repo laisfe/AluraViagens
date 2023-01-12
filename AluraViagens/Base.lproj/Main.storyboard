@@ -16,14 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="GK8-qN-5J7">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="GK8-qN-5J7">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GK8-qN-5J7" secondAttribute="trailing" id="BbU-d0-LUv"/>
+                            <constraint firstItem="GK8-qN-5J7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="E63-PE-zJ6"/>
+                            <constraint firstItem="GK8-qN-5J7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="RBt-gq-tg3"/>
+                            <constraint firstAttribute="bottom" secondItem="GK8-qN-5J7" secondAttribute="bottom" id="r7t-mx-rfx"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="viagensTableView" destination="GK8-qN-5J7" id="a0R-zF-dbC"/>
@@ -31,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-113.04347826086958" y="26.785714285714285"/>
+            <point key="canvasLocation" x="-113.04347826086958" y="25.446428571428569"/>
         </scene>
     </scenes>
     <resources>
