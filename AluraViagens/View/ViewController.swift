@@ -34,7 +34,14 @@ extension ViewController: UITableViewDataSource {
             fatalError("Error to create ViagemTableViewCell")
         }
         
-        return celulaViagem
+        let viewModel = sessaoDeViagens?[indexPath.section]
+        
+        switch viewModel?.tipo {
+        case .destaques: celulaViagem.configuraCelula(viewModel?.viagens[indexPath.row])
+            return celulaViagem
+        default:
+            return UITableViewCell()
+        }
     }
 }
 
