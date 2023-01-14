@@ -112,6 +112,16 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backgroundViewCell" destination="57k-6S-L1U" id="VAy-lB-UAd"/>
+                <outlet property="diariaViagemLabel" destination="159-Jw-Iod" id="xGM-nO-yZi"/>
+                <outlet property="precoSemDescontoLabel" destination="yuD-Ps-Ao3" id="zbx-zz-qR4"/>
+                <outlet property="precoViagemLabel" destination="40w-E1-THl" id="6fP-1s-BXW"/>
+                <outlet property="statusCancelamentoViagemLabel" destination="oAN-I3-JV8" id="nhQ-DP-Tey"/>
+                <outlet property="subtituloViagemLabel" destination="Vf4-E8-1Ss" id="lIt-8M-UTB"/>
+                <outlet property="tituloViagemLabel" destination="kCc-gQ-kCa" id="hxO-Aj-HtS"/>
+                <outlet property="viagemImage" destination="Ofb-c2-2Vs" id="J8k-hB-KSH"/>
+            </connections>
             <point key="canvasLocation" x="131.8840579710145" y="129.91071428571428"/>
         </tableViewCell>
     </objects>
