@@ -27,6 +27,7 @@
 		229626E029746D8F0077EA1B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229626DF29746D8F0077EA1B /* UIView+Extension.swift */; };
 		229626E229746D8F0077EA1B /* ViagemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229626E129746D8F0077EA1B /* ViagemViewModel.swift */; };
 		229626E429746D8F0077EA1B /* ViagemDestaqueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229626E329746D8F0077EA1B /* ViagemDestaqueViewModel.swift */; };
+		229F513A298568A600F0F4C5 /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229F5139298568A600F0F4C5 /* DetalheViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		229626DF29746D8F0077EA1B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../../../../Downloads/Arquivos Swift/arquivos/UIView+Extension.swift"; sourceTree = "<group>"; };
 		229626E129746D8F0077EA1B /* ViagemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewModel.swift; sourceTree = "<group>"; };
 		229626E329746D8F0077EA1B /* ViagemDestaqueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemDestaqueViewModel.swift; sourceTree = "<group>"; };
+		229F5139298568A600F0F4C5 /* DetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				229626AD296C57050077EA1B /* ViewController.swift */,
+				229F5139298568A600F0F4C5 /* DetalheViewController.swift */,
 				229626AF296C57050077EA1B /* Main.storyboard */,
 				229626C42971DE410077EA1B /* Header */,
 				229626C62971EB290077EA1B /* Cells */,
@@ -276,6 +279,7 @@
 				229626D929746D8F0077EA1B /* Viagem.swift in Sources */,
 				229626AC296C57050077EA1B /* SceneDelegate.swift in Sources */,
 				229626E229746D8F0077EA1B /* ViagemViewModel.swift in Sources */,
+				229F513A298568A600F0F4C5 /* DetalheViewController.swift in Sources */,
 				229626E429746D8F0077EA1B /* ViagemDestaqueViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
