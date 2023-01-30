@@ -196,10 +196,10 @@
                 <outletCollection property="subtituloViagemLabels" destination="TMU-iw-8KV" collectionClass="NSMutableArray" id="tTq-ZP-98S"/>
                 <outletCollection property="precoLabels" destination="zXT-FE-o2p" collectionClass="NSMutableArray" id="Zdw-NV-Dzv"/>
                 <outletCollection property="precoLabels" destination="EPH-WS-Wjs" collectionClass="NSMutableArray" id="Vc4-u4-lxF"/>
-                <outletCollection property="precoSemDescontonLabels" destination="FFA-0f-YrC" collectionClass="NSMutableArray" id="KwW-pp-vGD"/>
-                <outletCollection property="precoSemDescontonLabels" destination="JKj-gb-zS7" collectionClass="NSMutableArray" id="3aN-GG-tPS"/>
                 <outletCollection property="fundoViews" destination="KaX-hK-q4s" collectionClass="NSMutableArray" id="Uxw-3D-36n"/>
                 <outletCollection property="fundoViews" destination="MsQ-dJ-Gs1" collectionClass="NSMutableArray" id="e1f-td-ITI"/>
+                <outletCollection property="precoSemDescontoLabels" destination="JKj-gb-zS7" collectionClass="NSMutableArray" id="YsV-ED-bb6"/>
+                <outletCollection property="precoSemDescontoLabels" destination="FFA-0f-YrC" collectionClass="NSMutableArray" id="zez-bB-nBo"/>
             </connections>
             <point key="canvasLocation" x="131.8840579710145" y="129.57589285714286"/>
         </tableViewCell>

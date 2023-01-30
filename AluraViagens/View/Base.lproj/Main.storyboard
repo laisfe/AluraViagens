@@ -11,7 +11,6 @@
         <!--Navigation Controller-->
         <scene sceneID="VEp-D4-6jG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="20c-Tn-aOQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController navigationBarHidden="YES" id="3gi-GW-GX0" sceneMemberID="viewController">
                     <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3gg-7F-4Ln">
@@ -21,6 +20,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="sjv-Y5-uJF"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="20c-Tn-aOQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-923" y="25"/>
         </scene>
